@@ -1,7 +1,8 @@
 # 🎮 Terminal-Style Othello
 > 🎯 A beautiful retro-themed Othello/Reversi game
 
-![Game Preview](https://placeholder.com/800x200)
+![Screenshot 2024-10-24 at 10 43 48 PM](https://github.com/user-attachments/assets/2a8f3519-fdd3-4c47-8e82-d1707b136f0b)
+
 
 ## ✨ Features
 
