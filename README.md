@@ -77,9 +77,6 @@ Made with ❤️ for Othello lovers everywhere!
 <details>
   <summary>For A More Technical Intro Click Here</summary>
 
-# Othello
-
-A browser-based Othello/Reversi implementation with a retro terminal look. Play against friends or AI!
 
 ## Features
 
