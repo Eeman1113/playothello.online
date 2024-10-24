@@ -75,7 +75,7 @@ Made with ❤️ for Othello lovers everywhere!
 
 
 <details>
-  <summary>More Technical Into</summary>
+  <summary>For A More Technical Intro Click Here</summary>
 
 # Othello
 
