@@ -1,3 +1,35 @@
+### What are you up against?
+
+1. Beginner (makeBeginnerAIMove):
+- Uses a completely random selection from available valid moves
+- No evaluation or strategy - just picks randomly from legal moves
+- This is the simplest possible AI implementation
+
+2. Intermediate (makeIntermediateAIMove):
+- Uses a single-depth evaluation (looks only at the immediate next move)
+- Evaluates positions using several metrics:
+  - Coin parity (piece count difference)
+  - Mobility (number of possible moves)
+  - Corner control
+  - Edge/stability analysis
+- Picks the move that gives the best immediate score
+- No look-ahead/tree search
+
+3. Advanced (makeAdvancedAIMove):
+- Uses the Alpha-Beta pruning algorithm (a variant of Minimax)
+- Looks 4 moves ahead (depth=4)
+- Uses the same evaluation metrics as Intermediate:
+  - Coin parity
+  - Mobility
+  - Corner control
+  - Edge/stability
+- Implements pruning to efficiently search the game tree
+- Can anticipate opponent responses and plan multiple moves ahead
+
+The main difference between these implementations is their search depth and complexity:
+- Beginner: No search (depth 0)
+- Intermediate: Depth 1 search with position evaluation
+- Advanced: Depth 4 search with Alpha-Beta pruning and the same position evaluation
 
 ### **Main Features:**
 1. **Game Board Initialization:**
