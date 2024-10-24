@@ -1,3 +1,41 @@
+# Othello
+
+A browser-based Othello/Reversi implementation with a retro terminal look. Play against friends or AI!
+
+## Features
+
+- Human vs Human and Human vs AI modes
+- Three AI difficulty levels: Beginner, Intermediate, and Advanced
+- Terminal-style interface with move history and status display
+- No installation required - just open in a browser
+
+## Quick Start
+
+1. Open `index.html` in any modern web browser
+2. Click "Switch to AI Mode" to play against computer
+3. Select AI difficulty from dropdown menu
+4. Click highlighted dots to make valid moves
+
+## Game Rules
+
+- Black moves first
+- Place pieces to outflank opponent's pieces
+- Outflanked pieces flip to your color
+- Game ends when no valid moves remain
+- Player with most pieces wins
+
+## AI Levels
+
+- Beginner: Random moves
+- Intermediate: Basic strategy
+- Advanced: 4-move lookahead with Alpha-Beta pruning
+
+## Tech Stack
+
+- Pure HTML/CSS/JavaScript
+- No dependencies
+- Mobile responsive
+
 ## What are you up against?
 
 ### 1. Beginner (makeBeginnerAIMove):
