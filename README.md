@@ -1,11 +1,11 @@
-### What are you up against?
+## What are you up against?
 
-1. Beginner (makeBeginnerAIMove):
+### 1. Beginner (makeBeginnerAIMove):
 - Uses a completely random selection from available valid moves
 - No evaluation or strategy - just picks randomly from legal moves
 - This is the simplest possible AI implementation
 
-2. Intermediate (makeIntermediateAIMove):
+### 2. Intermediate (makeIntermediateAIMove):
 - Uses a single-depth evaluation (looks only at the immediate next move)
 - Evaluates positions using several metrics:
   - Coin parity (piece count difference)
@@ -15,7 +15,7 @@
 - Picks the move that gives the best immediate score
 - No look-ahead/tree search
 
-3. Advanced (makeAdvancedAIMove):
+### 3. Advanced (makeAdvancedAIMove):
 - Uses the Alpha-Beta pruning algorithm (a variant of Minimax)
 - Looks 4 moves ahead (depth=4)
 - Uses the same evaluation metrics as Intermediate:
@@ -31,7 +31,7 @@ The main difference between these implementations is their search depth and comp
 - Intermediate: Depth 1 search with position evaluation
 - Advanced: Depth 4 search with Alpha-Beta pruning and the same position evaluation
 
-### **Main Features:**
+## **Main Features:**
 1. **Game Board Initialization:**
    - The board is an 8x8 grid initialized with a starting position (two black and two white pieces in the center).
    - The `initializeBoard()` function sets this up at the start of the game.
@@ -58,7 +58,7 @@ The main difference between these implementations is their search depth and comp
    - A clickable section provides instructions for how to play the game and offers strategy tips. This helps beginners understand the rules.
    - The content can be toggled on and off to avoid cluttering the interface.
 
-### **Additional Details:**
+## **Additional Details:**
 - **AI Evaluation Function:**
   - The AI uses heuristics to evaluate the board: coin parity, mobility, corner control, and stability (edge control). This helps the AI make smarter decisions.
   
@@ -68,7 +68,7 @@ The main difference between these implementations is their search depth and comp
 - **Responsive Design:**
   - The CSS ensures the game board and text adapt to different screen sizes, with slightly smaller cells and text on smaller devices.
 
-### **Suggestions for Further Development:**
+## **Suggestions for Further Development:**
 1. **Difficulty Levels:**
    - You could add varying levels of AI difficulty by adjusting the search depth in the minimax algorithm (e.g., deeper searches for higher difficulty).
    
